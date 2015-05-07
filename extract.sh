@@ -5,4 +5,4 @@ if [ "$#" -ne 1 ]; then
     exit
 fi
 
-esentutl.py $1 export -table datatable | grep -E "ATTk590689|ATTm3|ATTm590045|ATTm590045|ATTr589970|ATTk589914|ATTk589879|ATTk589984|ATTk589918"
+esentutl.py $1 export -table datatable | grep -E "ATTk590689|ATTm3|ATTm590045|ATTr589970|ATTk589914|ATTk589879|ATTk589984|ATTk589918"
